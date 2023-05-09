@@ -1,0 +1,184 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+}
+@font-face {
+  font-family: bruno;
+  src: url(fonts/Nunito-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: josefin;
+  src: url(fonts/JosefinSans-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: simple note;
+  src: url(fonts/MyBooks.ttf);
+}
+@font-face {
+  font-family: branch;
+  src: url(fonts/Branch.ttf);
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    background-color:#576CBC;;
+    height: 16vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#subnav{
+  border-radius: 10px;
+  border: solid 1px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+#heading1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+
+
+h1{
+  margin: 20px 0;
+  font-family: simple note;
+  font-weight: 300;
+  text-decoration: underline #576CBC;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav ul li{
+ position: relative;
+ margin: auto;
+ display: inline-block;
+}
+
+nav ul ul {
+  display: none;
+  position: absolute;
+}
+
+ul li:hover > ul{
+  display: inherit;
+}
+
+ul ul li{
+  float: none;
+  display: list-item;
+  position: relative;
+  width: 170px;
+}
+
+nav ul li a:hover{
+  
+  border-radius: 25px;
+  background-color: #569DAA;
+ transform: translateY(-5px);
+ opacity: 2;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #B9EDDD;
+  padding: 6px 30px;
+  transition: 0.5s;
+  display: block;
+  font: 20px Raleway;
+  opacity: 0.5;
+
+}
+
+#logo img{
+  width: 100px;
+  height: auto;
+  margin: 15px;
+}
+
+#subnav ul li{
+  text-decoration: none;
+  padding: 6px 30px;
+  font: 20px Raleway;
+  display: inline;
+
+}
+
+#atlas{
+  display: flex;
+  flex-direction: row;
+  background-color:#19A7CE;
+  width: 100%;
+
+}
+#atlas2 h2{
+  margin-left: 450px;
+  margin-top: 30px;
+}
+
+#atlas ul{
+  margin-left: 370px;
+  margin-top: 20px;
+}
+
+#atlas2 ul li{
+ display: inline;
+ margin: 15px;
+ font-size: 25px;
+}
+hr{
+  width: 300px;
+  margin-left: 400px;
+  margin-top: 10px;
+  color: gray;
+  background-color: gray;
+  height: 2px;
+  border-width: 0;
+}
+#atlas2 h1{
+  margin-left: 440px;
+  color: red;
+}
+#log{
+text-align: center;
+font-family: josefin;
+margin: 40px;
+}
+#main p{
+  font-family: branch;
+}
+
+iframe{
+  border-radius: 15px;
+  width: auto;
+}
+
+#map{
+  display: flex;
+}
+#map p{
+  font-family: branch;
+  margin-left: 20px;
+}
+
+#map h1{
+  margin: 20px 20px;
+  font-family: simple note;
+  font-weight: 300;
+  text-decoration: underline #576CBC;
+}
+
+
